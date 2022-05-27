@@ -36,7 +36,7 @@ server.get("/", function (req, res) {
 });
 
 server.post("/", function (req, res) {
-  i = req.body.taks;
+  i = req.body.task;
   const item = new Item({
     name: i,
   });
